@@ -1,0 +1,16 @@
+button{
+    border-radius: 5px;
+    border:var(--primary);
+    background-color: var(--primary);
+    color:var(--color);
+    width:8em;
+    height:50px;
+    margin-top:50px;
+    font-size: 18px;
+    font-family: var(--secondary-font);
+}
+label{
+    color:black;
+    font-size:18px;
+    font-family: var(--secondary-font);
+}

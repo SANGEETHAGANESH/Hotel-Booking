@@ -1,0 +1,79 @@
+.btn{
+    border-radius: 5px;
+    border:var(--primary);
+    background-color: var(--primary);
+    color:var(--color);
+    width:12em;
+    height:50px;
+    font-size: 18px;
+    font-family: var(--secondary-font);
+}
+#button{
+    border-radius: 5px;
+    border:var(--primary);
+    background-color: var(--primary);
+    color:var(--color);
+    width:8em;
+    height:40px;
+}
+.carousel-control-next{
+    margin-top:60vh;
+}
+#img{
+    height: 80vh;
+    animation:moveit 2s;
+    border-radius: 10px;
+}
+@keyframes moveit{
+    from{margin-left:8vw;}
+    to{margin-left:0vh;}
+}
+.fa-long-arrow-right{
+    width:20px;
+}
+.text{
+    margin-top:20vh;
+    animation:mymove 2s;
+}
+@keyframes mymove{
+      from{margin-top:10vh;}
+      to{margin-top:20vh;}
+    
+}
+.text h1{
+    font-size:4vw;
+    font-style: italic;
+}
+@media (max-width:500px){
+    .text{
+        display: none;
+    }
+    #icon{
+        display: none;
+    }
+}
+.card{
+    height:auto;
+}
+#icon{
+    font-size:7vh;
+    color: var(--primary);
+    margin-top: 8.5vh;
+}
+#image{
+    border-radius: 4px;
+}
+#card{
+    border-radius: 4px;border:none;
+    margin-left: 30px;
+    animation:move 2s;
+}
+.card-body h1:hover{
+    color:var(--primary);
+}
+@keyframes move{
+    from{margin-right:-7vw;}
+    to{margin-right:0vh;}
+  
+}
+    

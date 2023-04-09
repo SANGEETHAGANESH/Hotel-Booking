@@ -1,0 +1,32 @@
+button{
+    border-radius: 5px;
+    border:var(--primary);
+    background-color: var(--primary);
+    color:var(--color);
+    width:10em;
+    height:50px;
+    font-size: 18px;
+    font-family: var(--secondary-font);
+}
+a{
+    text-decoration: none;
+    color:var(--color);
+}
+
+i{
+    font-size: 28px;
+    color:var(--primary);
+}
+p{
+    font-size: 17px;
+}
+hr{
+    margin-top: 40px;
+    width:90%;
+}
+#price{
+    color: var(--primary);
+}
+.card{
+    border-radius: 20px;
+}

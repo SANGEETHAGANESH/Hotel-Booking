@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row mt-4" *ngIf="roomData">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="../../../assets/image/51.jpg.webp"class="mb-4">
+                <img src="../../../assets/image/gallery-01.jpg">
+            </div>
+            <div class="col-md-6">
+                <img src="{{roomData[0].image}}"id="image"> 
+            </div>
+            <div class="col-md-3">
+                <img src="../../../assets/image/gallery-02.jpg"class="mb-4">
+                <img src="../../../assets/image/gallery-frontExterior-07.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-7" >
+                <br>
+                <h1>Overview</h1>
+                <p>{{roomData[0].desc}}</p>
+                <h5><i class="fa fa-user"></i> {{roomData[0].person}} Adult
+                    <i class="fa fa-child" style= margin-left:60px;></i>{{roomData[0].children}} Children
+                    <i class="fa fa-bed" style= margin-left:60px;></i>{{roomData[0].bed}} Bed</h5><br>
+                    <h1>Property Highlights</h1>
+                    <p>Instantly access Secret Prices when you download our app. Look out for ’Your Secret Price’ on selected hotels and save up to 40%. We don’t share Secret Prices with other sites: these are lower prices that we’ve specially negotiated for our customers who have subscribed to our emails, downloaded our app or those who have joined Hotels.com Rewards.</p>
+                    <h4>Feel At Home</h4>
+                    <li>Free cribs/infant beds</li>
+                    <li> Connecting/adjoining rooms available</li> 
+                    <li>Private bathroom</li>
+                    <li>Premium TV channels</li> 
+                    <li>Television</li>  
+                    <li>Free toiletries</li>
+            </div>
+        </div>
+    </div>
+</div>

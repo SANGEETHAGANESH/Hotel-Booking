@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding:0;
+    margin:0;
+}
+:root{
+    --primary: #1cc3b2;
+    --secondary: #FFF2DE;
+    --heading: #000000;
+    --text: #333333;
+    --light: #888888;
+    --color: #E5E5E5;
+    --primary-font: Barlow;
+    --font-size: 19px;
+    --line-height: 1.63em;
+    --secondary-font: Gilda Display;
+    --main-content: calc( 100% - 320px );
+    --container-width: 1290px;
+    --boxed-offset: 20px;
+}
+body{
+    height:100vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
